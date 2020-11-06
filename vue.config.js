@@ -1,6 +1,5 @@
 // vue.config.js
-const ENV = process.env.NODE_ENV;
 
 module.exports = {
-  publicPath: ENV === "development" ? "" : "/Vue_TodoList/dist/", 
+  publicPath: process.env.NODE_ENV === "production" ? "/Vue_TodoList/dist/" : "/", 
 };
