@@ -2,5 +2,5 @@
 const ENV = process.env.NODE_ENV;
 
 module.exports = {
-  publicPath: ENV === "development" ? "" : "/Vue_TodoList/dist", 
+  publicPath: ENV === "development" ? "" : "/Vue_TodoList/dist/", 
 };
